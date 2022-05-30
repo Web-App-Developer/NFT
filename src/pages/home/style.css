@@ -1,0 +1,117 @@
+.landing__page__view {
+    background: linear-gradient(180deg, #8365E2 0%, rgba(196, 196, 196, 0) 100%) !important;
+}
+
+.inv__pop__box {
+    background-color: black;
+    height: 60px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.inv_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    color: #fff;
+    height: 100%;
+    gap: 1em;
+}
+
+.inv_item h4 {
+    color: #fff;
+    margin-top: 10px;
+}
+
+.logo__item {
+    margin-top: -20px;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mint__main__box {
+    height: 49px;
+    background: linear-gradient(134.47deg, #FFFFFF -26.79%, #D1D1D1 230.75%);
+    box-shadow: 2px 8px 24px rgba(0, 0, 0, 0.12), inset 0px 2px 0px #FFFFFF;
+    border-radius: 20px;
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.mint__main__box div {
+    flex: 1;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 21px;
+    /* identical to box height, or 42% */
+
+    text-align: center;
+
+    color: #777777;
+
+    mix-blend-mode: normal;
+}
+
+.mint__minus {
+    cursor: pointer;
+    border-right: 2px solid rgba(119, 119, 119, 0.3);;
+}
+
+.mint__plus {
+    cursor: pointer;
+    border-left: 2px solid rgba(119, 119, 119, 0.3);;
+}
+
+.page__btn__small {
+    width: 280px;
+    height: 61px;
+    background: #8365E2;
+    box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.19);
+    border-radius: 53px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    line-height: 61px;
+
+
+}
+
+.page__btn__small span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 64px;
+    /* identical to box height, or 356% */
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+}
+
+.center__btn {
+    margin: auto;
+    margin-top: 50px;
+}
+@media only screen and (min-device-width: 426px) and (max-device-width: 768px)  {
+    .logo__item{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .sm-pt10 {
+        padding-top: 0px;
+    }
+}
+@media only screen and (max-width:425px){
+    .logo__item{
+        height: 90px;
+        padding:30px 0;
+    }
+}

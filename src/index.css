@@ -1,0 +1,44 @@
+.table{
+    font-family: "Roboto", sans-serif !important;
+}
+
+.active__pagination{
+    background: #8365E2 !important;
+    color: white !important;
+}
+
+
+.row__view{
+    position: relative;
+}
+
+.view_drop__down__box{
+    position: absolute;
+    width: 60px;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding:5px;
+    right: 0px;
+    top: 34px;
+    cursor: pointer;
+}
+
+
+/* @media (max-width: 576px) {
+
+} */
+
+/* // Medium devices (tablets, 768px and up) */
+/* @media (max-width: 768px) { 
+
+} */
+
+/* // Large devices (desktops, 992px and up) */
+/* @media (max-width: 992px) { 
+
+} */
+
+/* // Extra large devices (large desktops, 1200px and up) */
+/* @media (max-width: 1200px) { 
+
+} */
